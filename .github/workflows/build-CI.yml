@@ -2,7 +2,7 @@ name: OpenWrt-CI
 
 on:
   schedule:
-    - cron: '0 10 12 * * ?'
+    - cron: '15 12 * * ?'
   workflow_dispatch:
     
 env:
